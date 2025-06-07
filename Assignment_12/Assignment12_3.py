@@ -14,13 +14,13 @@ class arithmetic():
         print("addition: ", self.value1+self.value2)
 
     def subtraction(self):
-        print("addition: ", self.value1-self.value2)
+        print("subtraction: ", self.value1-self.value2)
 
     def multiplication(self):
         print("multiplication: ", self.value1*self.value2)
 
     def division(self):
-        print("multiplication: ", self.value1/self.value2)
+        print("division: ", self.value1/self.value2)
         
 def main():
     obj1 = arithmetic()
