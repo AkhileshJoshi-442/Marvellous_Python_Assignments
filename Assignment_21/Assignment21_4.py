@@ -19,7 +19,7 @@ def sendmail(fpath):
 
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login("ajj.442.11@gmail.com", "vpng ktbp aahp oqnj")
+    s.login("ajj.442.11@gmail.com", "xyz123")
     s.send_message(msg)
     s.quit()
 
